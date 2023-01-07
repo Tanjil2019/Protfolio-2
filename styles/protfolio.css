@@ -7,6 +7,14 @@ font-family: 'Prompt', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif;
 }
+/* this is primary buttons */
+.text-primary{
+    color: #FD6E0A;
+}
+h2{
+    font-size: 2rem;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -14,11 +22,10 @@ nav{
 }
 nav ul{
     display: flex;
+    align-items: center;
     
 }
-.text{
-    color: #FD6E0A;
-}
+
 .btn-hire{
     text-transform: uppercase;
     color: white;
@@ -36,3 +43,24 @@ nav li{
     font-weight: 800;
 }
 
+/* Banner styles */
+.banner{
+    background-image: url("images/header-bg.png");
+    display: flex;
+    align-items: center;
+   margin-left: 200px;
+}
+.btn-download{
+    background-color: #FD6E0A;
+    border: none;
+    padding:10px 30px;
+    font-weight: 800;
+}
+.btn-contact{
+    border: 1px solid #FD6E0A;
+    padding:7px 20px;
+    margin: 2px;
+    color: #FD6E0A;
+    font-size: 16px;
+    font-weight: 800;
+}
