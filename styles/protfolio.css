@@ -44,6 +44,13 @@ nav li{
 }
 
 /* Banner styles */
+
+.header{
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
 .banner{
     background-image: url("images/header-bg.png");
     display: flex;
