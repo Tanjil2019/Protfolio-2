@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mukta&family=Prompt:wght@300&family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav ul{
+    display: flex;
+    
+}
+.text{
+    color: #FD6E0A;
+}
+.btn-hire{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+    letter-spacing: .1rem;
+    padding: 15px 50px; 
+    background-color: #FD6E0A; 
+    border: none;
+    border-radius: 4px;
+}
+nav li{
+    list-style: none;
+    padding: 15px;
+    font-weight: 800;
+}
+
