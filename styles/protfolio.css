@@ -12,9 +12,18 @@ font-family: 'Roboto Slab', serif;
     color: #FD6E0A;
 }
 h2{
+    font-size: 3rem;
+}
+h3{
     font-size: 2rem;
 }
+p{
+    font-weight: 500;
+}
 
+.dis-p{
+    font-size: 1.1rem;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -46,9 +55,9 @@ nav li{
 /* Banner styles */
 
 .header{
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, left;
 }
 
 .banner{
@@ -62,12 +71,226 @@ nav li{
     border: none;
     padding:10px 30px;
     font-weight: 800;
+    font-size: 1.2rem;
 }
 .btn-contact{
     border: 1px solid #FD6E0A;
     padding:7px 20px;
     margin: 2px;
     color: #FD6E0A;
-    font-size: 16px;
+    font-size: 1.2rem;
     font-weight: 800;
+}
+
+
+/* About styles */
+
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about{
+   margin-top: 50px;
+   background-color: rgb(255, 255, 255);
+   border-radius: 10px;
+   padding: 130px 150px;
+}
+
+.about-title{
+  text-align: center;
+  font-size: 2rem
+}
+
+.about-discription{
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.about-info{
+    display: flex;
+    margin: 0 auto;
+}
+.about-serial{
+   margin:0 30px;
+} 
+h5{
+    font-size: .9rem;
+    text-align: center;
+    font-weight: bold;
+
+}
+h4{
+    margin-top: -20px;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+/* What I do styles */
+
+.what-i-do{
+    max-width: 1140;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+.what-text{
+    text-align: center;
+    font-size: 2rem;
+}
+.what-discription{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+.coded{
+    margin-top: 70px;
+    display: flex;
+}
+
+.fa-js{
+    font-size: 3rem;
+    color: yellow;
+    background-color: black;
+}
+
+.fa-react{
+    font-size: 3rem;
+    color: rgb(20, 209, 216);
+}
+
+.fa-node-js{
+    font-size: 3rem;
+    color: rgb(20, 216, 46);
+}
+.fa-java{
+    font-size: 3rem;
+    color: rgb(8, 8, 8);
+}
+li {
+    list-style: none;
+}
+.react{
+    margin: 20px;
+}
+.list-name {
+    margin-top: 20px; 
+    margin-right: 30px;
+    font-size: 1.2rem;
+    margin-right: 0px;
+    text-align: left;
+}
+
+.node-discription{
+   font-size: 1.1rem;
+}
+
+
+/* education-experience */
+
+
+.summer{
+    max-width: 1142px;
+    margin: 0 auto;
+}
+.resume{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 140px;
+}
+.education-experience{
+    display: flex;
+    margin: 0 auto;
+}
+.education{
+    text-align: center;
+    margin: 20px;
+}
+.text-header{
+text-align: left;
+
+}
+.education-h4{
+    font-size: 1.9rem;
+    padding-top: 70px;
+    text-align: left;
+}
+.master-h5{
+    font-size: 1.6rem;
+    text-align: left;
+} 
+.university-harvad{
+    margin-top: -30px;
+    font-size: 1.2rem;
+}
+.education-p{
+    font-size: 1.1rem;
+}
+
+.border{
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+.btn-center{
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+/* footer styels */
+
+footer{
+    max-width: 1142px;
+    margin: 0 auto;
+    display: flex;
+}
+.connet{
+    max-width: 600px;
+    margin: 0 100px;
+}
+
+.lets-h2{
+    font-size: 2rem;
+   
+}
+.icon{
+    display: flex;
+    margin: 50px;
+}
+.fa-facebook{
+    font-size: 1.8rem;
+    margin:0 15px;
+    color: rgb(80, 120, 194);
+}
+.fa-twitter{
+    font-size: 1.8rem;
+    margin:0 15px;
+    color: rgb(62, 96, 126);
+
+}
+.fa-instagram{
+    font-size: 1.8rem;
+    margin:0 15px;
+   color: #FD6E0A;
+}
+
+.me{
+    max-width: 600px;
+}
+label{
+    font-size: 1.1rem;
+}
+#name, #email{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    border: 1px solid #FD6E0A;
+}
+
+
+.massege{
+    text-align: left;
+    font-size: 1.2rem;
+    padding:30 0px;
+    margin-bottom: 200px;
 }
